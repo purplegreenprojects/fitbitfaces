@@ -1,6 +1,7 @@
-#background {
+#container {
   viewport-fill: black;
 }
+
 
 #center {
   fill: #1e343b;
@@ -31,4 +32,60 @@
   fill: #1e343b;
   stroke-width: 1%;
   opacity: 0.75;
+}
+
+#day {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
+}
+
+#dateMonth {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
+}
+
+#dateDay {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
+}
+
+#battery {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
+}
+
+#calories {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
+}
+
+#heartrate {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
+}
+
+#steps {
+  fill: white;
+  font-size: 15;
+  font-family: System-Bold;
+  text-anchor: middle;
+  text-length: 5;
 }
