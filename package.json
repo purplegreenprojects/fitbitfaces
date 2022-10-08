@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "8fcf652a-c653-45b6-b179-a5eef355a7ba",
+    "appType": "clockface",
+    "appDisplayName": "Demo",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Demo"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

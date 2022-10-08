@@ -1,0 +1,34 @@
+#background {
+  viewport-fill: black;
+}
+
+#center {
+  fill: #1e343b;
+  opacity: 1;
+}
+
+.numbers {
+  font-size: 20;
+  font-family: System-Bold;
+  text-anchor: middle;
+  fill: #1e343b;
+  opacity: 1;
+}
+
+#hours {
+  fill: #1e343b;
+  stroke-width: 2%;
+  opacity: 0.75;
+}
+
+#minutes {
+  fill: #1e343b;
+  stroke-width: 2%;
+  opacity: 0.75;
+}
+
+#seconds {
+  fill: #1e343b;
+  stroke-width: 1%;
+  opacity: 0.75;
+}

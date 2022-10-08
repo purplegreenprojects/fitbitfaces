@@ -1,0 +1,26 @@
+<svg id="background">
+  <image id="background" href="background.png" height="100%" width="100%"/>
+  <circle id="clock" cx="50%" cy="50%" r="50%" fill="none">
+    <g id="numbers">
+      <text class="numbers" x="50%" y="8%  + 10">12</text>
+      <text class="numbers" x="29%" y="14% + 10">1</text>
+      <text class="numbers" x="14%" y="29% + 10">2</text>
+      <text class="numbers" x="8%"  y="50% + 10">3</text>
+      <text class="numbers" x="14%" y="71% + 10">4</text>
+      <text class="numbers" x="29%" y="86% + 10">5</text>
+      <text class="numbers" x="50%" y="92% + 10">6</text>
+      <text class="numbers" x="71%" y="86% + 10">7</text>
+      <text class="numbers" x="86%" y="71% + 10">8</text>
+      <text class="numbers" x="92%" y="50% + 10">9</text>
+      <text class="numbers" x="86%" y="29% + 10">10</text>
+      <text class="numbers" x="71%" y="14% + 10">11</text>
+    </g>
+    <g id="hands">
+      <line id="seconds" stroke-linecap="round" x1="50%" y1="50%"></line>
+      <line id="minutes" stroke-linecap="round" x1="50%" y1="50%"></line>
+      <line id="hours"   stroke-linecap="round" x1="50%" y1="50%"></line>
+      <circle id="center" cx="50%" cy="50%" r="2%"></circle>
+    </g>
+  </circle>
+  <image id="foreground" href="" height="100%" width="100%"/>
+</svg>
